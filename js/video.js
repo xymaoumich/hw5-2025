@@ -12,8 +12,6 @@ window.addEventListener("load", function() {
 	console.log("Looping is set to false");
 	video.volume = 1.0;
 
-	// Update initial volume display
-	document.querySelector("#volume").innerText = (video.volume * 100) + "%";
 	// Add event listeners for buttons
 	document.querySelector("#play").addEventListener("click", playVideo);
 	document.querySelector("#pause").addEventListener("click", pauseVideo);
